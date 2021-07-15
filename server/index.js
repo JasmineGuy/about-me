@@ -7,9 +7,9 @@ const port = process.env.PORT || 4005
 
 app.use(express.static("public"))
 
-app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '../index.html'))
-})
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public'))
+});
 
 app.listen(port, () => {
     console.log(`Listening on port ${port}`)
