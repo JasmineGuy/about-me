@@ -1,11 +1,13 @@
 * {
   margin-left: 10px;
+  margin-right: 10px;
   padding: 0;
+  /* background-color: #50b6de; */
   font-family: "Exo", sans-serif;
 }
 .nav-container {
   height: 5vh;
-  border: 5px solid black;
+  border: 3px solid black;
   display: flex;
 }
 nav {
@@ -17,32 +19,46 @@ nav {
   justify-content: space-around;
   align-items: right;
 }
-.top-container,
+.top-container {
+  height: 25vh;
+  border: 3px solid black;
+  display: flex;
+}
 .bottom-container {
   height: 25vh;
-  border: 5px solid black;
+  border: 3px solid black;
+  display: flex;
 }
 .middle-container {
   height: 50vh;
-  border: 5px solid black;
+  border: 3px solid black;
   display: flex;
+}
+.each {
+  display: flex;
+  justify-content: space-evenly;
+  height: 5vh;
+  align-items: center;
+  flex-direction: column;
 }
 .profile-pic {
   height: 45vh;
   width: 15vw;
   justify-content: center;
-  border: 1px solid blue;
+
+  /* border: 1px solid blue; */
 }
 .bio {
   height: 35vh;
   border: 1px solid red;
+  z-index: -10;
 }
 
 .nav-link {
   display: flex;
   justify-content: center;
 }
-h5 {
+/* h5 {
   font-size: 20px;
 }
 h1 {
@@ -54,8 +70,11 @@ h1:hover {
 }
 h4 {
   font-size: 20px;
-}
+} */
 .footer-container {
   height: 10vh;
   background-color: black;
+}
+#favorites {
+  display: flex;
 }
