@@ -1,0 +1,57 @@
+* {
+  margin: 10px;
+  padding: 0;
+  font-family: font-family: 'Archivo Black', sans-serif;
+}
+.nav-container {
+  height: 5vh;
+  border: 5px solid black;
+  display: flex;
+}
+nav{
+    justify-content: space-around;
+    height: 5vh;
+    display: flex;
+}
+.nav-link{
+    justify-content: space-around;
+    align-items: right;
+}
+.top-container, 
+.bottom-container {
+  height: 25vh;
+  border: 5px solid black;
+}
+.middle-container{
+  height: 50vh;
+  border: 5px solid black;
+  display: flex;
+}
+.profile-pic{
+    height: 45vh;
+    width: 15vw;
+    justify-content: center;
+    border: 1px solid blue;
+
+}
+.bio{
+    height: 35vh;
+    border: 1px solid red;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+}
+h5 {
+    font-size: 20px;;
+}
+h1{
+    font-size: 50px;
+}
+h4{
+    font-size: 20px;
+}
+.footer-container{
+    height: 10vh;
+}
